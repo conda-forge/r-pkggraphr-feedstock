@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pkgGraphR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pkgGraphR/pkgGraphR_{{ version }}.tar.gz
-  sha256: e78e4ca424acd2a4e7f577e20ebd4cbe536bb2867053815e741fe0a08d3b1718
+  sha256: 29c2790f256538d70db545af3a5f3f5357d60266186c87b4a8c4e918cf46bc1d
 
 build:
   number: 0
